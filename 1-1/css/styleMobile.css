@@ -1,0 +1,27 @@
+@media screen and (max-width: 479px) {
+    body {
+        width: 150px;
+    }
+
+    main {
+        display: block;
+    }
+
+    .group-1 {
+        display: block;
+    }
+
+    .group-2 {
+        width: 100%;
+    }
+
+    .box-0 {
+        width: 100%;
+        height: 100px;
+    }
+
+    .box-1 {
+        width: 100%;
+        height: 100px;
+    }
+}
