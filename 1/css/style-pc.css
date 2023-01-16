@@ -1,0 +1,22 @@
+@media screen and (min-width: 480px) {
+    body {
+            width: 400px;
+    }
+
+    header {
+        position: relative;
+    }
+
+    .header-menus {
+        width: 160px;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+    
+    .list {
+        width: 250px;
+        height: 250px;
+        padding: 40px 60px 40px 40px;
+    }
+}
