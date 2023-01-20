@@ -10,4 +10,5 @@ class Car {
 }
 
 let car = new Car('レギュラー', '1234');
+console.log('Car.jsの出力');
 car.getNumGas();

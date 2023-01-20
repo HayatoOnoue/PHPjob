@@ -6,6 +6,7 @@ function isEven(num) {
   }
 }
 
+console.log('even.jsの出力');
 for (let i = 0; i < numbers.length; i++) {
   isEven(numbers[i]);
 }
