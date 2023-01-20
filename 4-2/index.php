@@ -6,6 +6,8 @@ $users_data = $data->getUserData();
 $full_name = "${users_data['last_name']}${users_data['first_name']}";
 
 $post_data = $data->getPostData();
+
+$categories = ['1' => '食事', '2' => '旅行', '3' => 'その他'];
 ?>
 
 <!DOCTYPE html>
@@ -40,7 +42,7 @@ $post_data = $data->getPostData();
                 <tr>
                     <td><?php echo $row['id']; ?></td>
                     <td><?php echo $row['title']; ?></td>
-                    <td><?php echo $row['category_no']; ?></td>
+                    <td><?php echo $categories[$row['category_no']]; ?></td>
                     <td><?php echo $row['comment']; ?></td>
                     <td><?php echo $row['created']; ?></td>
                 </tr>
