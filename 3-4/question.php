@@ -10,7 +10,7 @@ $choices3 = ['join', 'select', 'insert', 'update'];
 
 //② ①で作成した、配列から正解の選択肢の変数を作成してください
 $answer1 = $choices1[0];
-$answer2 = $choices2[0];
+$answer2 = $choices2[3];
 $answer3 = $choices3[1];
 
 ?>
