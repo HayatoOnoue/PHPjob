@@ -49,7 +49,8 @@ try {
             <?php while ($row = $stmt->fetch(PDO::FETCH_ASSOC)) { ?>
                 <tr>
                     <td><?php echo $row['title']; ?></td>
-                    <td><?php echo $row['date']; ?></td>
+                    <!-- <td><?php echo $row['date']; ?></td> -->
+                    <td><?php echo date("Y/m/d", strtotime($row['date'])); ?></td>
                     <td><?php echo $row['stock']; ?></td>
                     <td><button class="btn3"><a href="delete_book.php?id=<?php echo $row['id'] ?>">削除</a></button></td>
                 </tr>
