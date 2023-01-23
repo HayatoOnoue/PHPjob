@@ -1,0 +1,53 @@
+@charset "utf-8";
+
+.tweet-input, .tweet {
+    width: 50%;
+    margin: auto;
+    border: solid 1px gray;
+    background-color: white;
+    padding: 1rem;
+}
+
+.tweet {
+    position: relative;
+}
+
+.tweet-input {
+    margin-bottom: 1rem;
+}
+
+.tweet-input input[type="text"] {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.tweet-input input[type="submit"] {
+    display: block;
+    margin-left: auto;
+}
+
+.tweet-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.username {
+    font-weight: bold;
+    font-size: 1.25rem;
+    display: inline-block;
+    margin-right: auto;
+}
+
+.timestamp {
+    color: gray;    
+    display: inline-block;
+    margin-left: auto;
+}
+
+.delete-link > a {
+    display: block;
+    color: red;
+    text-align: right;
+}
