@@ -1,0 +1,51 @@
+.btn {
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    appearance: none;
+    color: white;
+    padding: 0.5rem 4rem;
+    margin-top: 1rem;
+}
+
+.btn a {
+    color: white;
+    text-decoration: none;
+}
+
+.bg-primary {
+    background-color: blue;
+}
+
+.bg-info {
+    background-color: darkturquoise;
+}
+
+.bg-danger {
+    background-color: red;
+}
+
+.bg-secondary {
+    background-color: grey;
+}
+
+table {
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+th, td {
+    padding: 1rem 4rem;
+    border: solid 1px grey;
+    text-align: center;
+}
+
+th {
+    background-color: lightgrey;
+    font-weight: bold;
+}
+
+table .btn {
+    margin: 0;
+}

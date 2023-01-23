@@ -61,7 +61,7 @@ if (isset($_POST)) {
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>本 登録画面</title>
 </head>
 <body>
@@ -69,10 +69,10 @@ if (isset($_POST)) {
     <form action="" method="post">
         <input placeholder="タイトル" type="text" name="title" id="title" style="width: 250px; height: 30px;"><br>
         <input placeholder="発売日" type="date" name="date" id="date" style="width: 250px; height: 30px; margin-top: 15px;"><br>
-        <h4>在庫数</h4><br>
-        <input placeholder="選択してください" type="number" name="stock" min="0" max="100" style="width: 200px; height: 30px;">
+        <h4>在庫数</h4>
+        <input placeholder="選択してください" type="number" name="stock" min="0" max="100" style="width: 200px; height: 30px;"><br>
         
-        <input class="button" type="submit" value="登録" name="post">
+        <input class="btn bg-primary" type="submit" value="登録" name="post">
     </form>
 </body>
 </html>

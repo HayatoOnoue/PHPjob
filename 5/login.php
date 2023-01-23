@@ -56,16 +56,17 @@ if (!empty($_POST)) {
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ログイン画面</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <div>
         <h2>ログイン画面</h2>
-        <button class="btn" onclick="location.href='register.php'">新規ユーザー登録</button>
+        <button class="btn bg-info" onclick="location.href='register.php'">新規ユーザー登録</button>
     </div>
     <form action="" method="post"><br>
         <input placeholder="ユーザー名" type="text" name="name" id="username" style="width: 250px; height: 30px;"><br>
         <input placeholder="パスワード" type="password" name="password" id="password" style="width: 250px; height: 30px; margin-top: 15px;"><br>
-        <input class="button" type="submit" value="ログイン"><br>
+        <input class="btn bg-primary" type="submit" value="ログイン"><br>
     </form>
 </body>
 </html>

@@ -31,12 +31,13 @@ try {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>在庫一覧画面</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <h2>在庫一覧画面</h2>
     <div>
-        <button class="btn1" onclick="location.href='create_book.php'">新規登録</button>
-        <button class="btn2" onclick="location.href='logout.php'">ログアウト</button><br>
+        <button class="btn bg-primary" onclick="location.href='create_book.php'">新規登録</button>
+        <button class="btn bg-secondary" onclick="location.href='logout.php'">ログアウト</button><br>
     </div>
         <table>
             <tr>
@@ -52,7 +53,7 @@ try {
                     <!-- <td><?php echo $row['date']; ?></td> -->
                     <td><?php echo date("Y/m/d", strtotime($row['date'])); ?></td>
                     <td><?php echo $row['stock']; ?></td>
-                    <td><button class="btn3"><a href="delete_book.php?id=<?php echo $row['id'] ?>">削除</a></button></td>
+                    <td><button class="btn bg-danger"><a href="delete_book.php?id=<?php echo $row['id'] ?>">削除</a></button></td>
                 </tr>
             <?php } ?>
         </table>
