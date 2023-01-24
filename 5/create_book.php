@@ -9,7 +9,7 @@ check_user_logged_in();
 
 
 // post通信で値が送られているか確認(isset)
-if (isset($_POST)) {
+if (isset($_POST['post'])) {
     // タイトルが未入力の場合
     if (empty($_POST['title'])) {
         echo "タイトルが未入力です。";
