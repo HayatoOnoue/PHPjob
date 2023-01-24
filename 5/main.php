@@ -53,7 +53,8 @@ try {
                     <!-- <td><?php echo $row['date']; ?></td> -->
                     <td><?php echo date("Y/m/d", strtotime($row['date'])); ?></td>
                     <td><?php echo $row['stock']; ?></td>
-                    <td><button class="btn bg-danger"><a href="delete_book.php?id=<?php echo $row['id'] ?>">削除</a></button></td>
+                    <!-- <td><button class="btn bg-danger"><a href="delete_book.php?id=<?php echo $row['id'] ?>">削除</a></button></td> -->
+                    <td><button class="btn bg-danger" onclick="location.href='delete_book.php?id=<?php echo $row['id'] ?>'">削除</button></td>
                 </tr>
             <?php } ?>
         </table>
